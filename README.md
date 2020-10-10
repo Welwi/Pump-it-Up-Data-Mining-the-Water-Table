@@ -7,9 +7,18 @@
 Sam Videlock, Edna Fernandes and Anup Sebastian
 
 
-## Project Goals/Overview
+## Project Intro/Objective
 
-The purpose of this project was to use data from Taarifa and the Tanzanian Ministry of Water and predict which pumps are functional, which need repair and which are non functional. This helps optimize Tanzanian maintenance operations and ensure that clean, potable water is available to communities across Tanzania.
+This project was part of a competition hosted by drivendata. The goal of the competition was to use data from Taarifa and the Tanzanian Ministry of Water and predict which pumps were functional, which needed repair and which were non functional. Results obtained helped optimize Tanzanian maintenance operations and ensure that clean, potable water is available to communities across Tanzania.
+
+## Methods Used
+   * **Modeling approach 1**: combined the targets "functional" and "functional needs repair" into one. Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good  results (79% accuracy).
+   
+   * **Modeling approach 2**: SMOTE, xgboost. Used the three different targets. The model had an 80% accuracy.
+   
+   * **Data Visuazliation**: PowerBI.
+
+   
 
 In our analysis we were able to identify a smaller subset of non functioning wells that could be prioritized for restoration based on the insights. The analysis can be found on the Power BI file "Data_Analysis.pbix".
 
