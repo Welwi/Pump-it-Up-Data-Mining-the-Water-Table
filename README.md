@@ -1,5 +1,7 @@
 # Pump it Up: Data Mining the Water Table
 
+![alt text](https://water.org/media/images/Waterorg_Our-Impact_Tanzania_Img-2.original.jpg)
+
 ## Team Members
 
 Sam Videlock, Edna Fernandes and Anup Sebastian
