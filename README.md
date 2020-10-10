@@ -29,7 +29,12 @@ This project was part of a competition hosted by drivendata. The goal of the com
 The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. As part of the cleaning step, the 'train_set_values.csv' and 'train_set_labels.csv' were merged, the null values were replaced with the mode and duplicate values were dropped. Categorical features have been transformed using target encoding. 
 
 ### Key Insights
+  * There were a total of 23,000 non-functional wells.
   * Most wells have good water quality but about 17,000 with good water quality are non-functional.
+  * Both submersible, and motorpumps tend to fal at higher rate than gravity and handpump wells. This is porbably due to the increase in maintenance necessary.
+  * About 9,000 wells that are currently non-functional have adequate water availability. However, they can not be accessed.
+  * Well restauration should be prioritzed to the ones that have good and high water quality and with gravity or handpump as their lifting system.
+  
   
 
 
@@ -39,29 +44,6 @@ The final presentation can be found in the file 'Final_Presentation.pdf' or from
 
 
 
-## README Summary
-
-In this README we will discuss our process for data cleaning, our insights in the dataset and our modeling process.
-
-
-
-### Data Cleaning
-
-The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. The data comes from the drivendata.org for the competition Pump it Up: Data Mining the Water Table (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).
-
-For our cleanup, we created a preprocessor file (preprocessor.py). In the preprocessor we have the following steps:
-    - Merged the 'train_set_values.csv', 'train_set_labels.csv'.
-    - Replaced all the null values with the mode.
-    - Dropped some columns that seemed repretitive.
-    - Target encoded our features
-    
-
-### Models
-
-Binary Model
-  - Can be found in the file "Binary_Simplified_Model.ipynb".
-  - Combined the targets "functional" and "functional needs repair" into one.
-  - Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good       results (79% accuracy).
 
 
 Final Model
