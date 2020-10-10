@@ -18,7 +18,21 @@ This project was part of a competition hosted by drivendata. The goal of the com
    
    * **Data Visuazliation**: PowerBI.
 
+
+## Technologies
+   * **Programming language**: Python.
+   * **Libraries**: numpy, pandas, sklearn, imblearn
    
+   
+## Dataset Description  
+
+The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. As part of the cleaning step, the 'train_set_values.csv' and 'train_set_labels.csv' were merged, the null values were replaced with the mode and duplicate values were dropped. Categorical features have been transformed using target encoding. 
+
+### Key Insights
+  * Most wells have good water quality but about 17,000 with good water quality are non-functional.
+  
+
+
 
 In our analysis we were able to identify a smaller subset of non functioning wells that could be prioritized for restoration based on the insights. The analysis can be found on the Power BI file "Data_Analysis.pbix".
 
