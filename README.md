@@ -14,7 +14,7 @@ This project was part of a competition hosted by drivendata. The goal of the com
 ## Methods Used
    * **Modeling approach 1**: combined the targets "functional" and "functional needs repair" into one. Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good  results (79% accuracy).
    
-   * **Modeling approach 2**: SMOTE, xgboost. Used the three different targets. The model had an 80% accuracy.
+   * **Modeling approach 2**: SMOTE, xgboost. Used the three different targets. The model had an 80% accuracy (top 15% of competition).
    
    * **Data Visuazliation**: PowerBI.
 
@@ -36,17 +36,9 @@ The original training dataset is found on 'train_set_values.csv', 'train_set_lab
   * Well restauration should be prioritzed to the ones that have good and high water quality and with gravity or handpump as their lifting system.
   
   
+![some image](https://github.com/Welwi/Pump-it-Up-Data-Mining-the-Water-Table/blob/master/all_images.PNG)
 
 
-In our analysis we were able to identify a smaller subset of non functioning wells that could be prioritized for restoration based on the insights. The analysis can be found on the Power BI file "Data_Analysis.pbix".
-
+## Final Presentation
 The final presentation can be found in the file 'Final_Presentation.pdf' or from this link: https://www.canva.com/design/DADxqPE0Yxg/Hurc4uIQFubGl3QY-9lOyA/view?utm_content=DADxqPE0Yxg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
-
-
-
-
-Final Model
-  - Can be found in the file 'XGBoost_with_SMOTE'
-  - Had the three different targets ("functional", "functional needs repair" and "non functional").
-  - We got an accuracy score of 80.59% (top 15% of competition) 
