@@ -29,11 +29,11 @@ This project was part of a competition hosted by drivendata. The goal of the com
 The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. As part of the cleaning step, the 'train_set_values.csv' and 'train_set_labels.csv' were merged, the null values were replaced with the mode and duplicate values were dropped. Categorical features have been transformed using target encoding. 
 
 ### Key Insights
-  * There were a total of 23,000 non-functional wells.
+  * There are a total of 23,000 non-functional wells.
   * Most wells have good water quality but about 17,000 with good water quality are non-functional.
-  * Both submersible, and motorpumps tend to fal at higher rate than gravity and handpump wells. This is porbably due to the increase in maintenance necessary.
+  * Both submersible and motor pumps tend to fall at a higher rate than gravity and handpump wells. This is probably due to the increase in maintenance necessary.
   * About 9,000 wells that are currently non-functional have adequate water availability. However, they can not be accessed.
-  * Well restauration should be prioritzed to the ones that have good and high water quality and with gravity or handpump as their lifting system.
+  * Well restauration should be prioritized to the ones that have good and high water quality and with gravity or handpump as their lifting system.
   
   
 ![some image](https://github.com/Welwi/Pump-it-Up-Data-Mining-the-Water-Table/blob/master/all_images.PNG)
